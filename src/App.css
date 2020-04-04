@@ -32,7 +32,50 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skills li {
+  display: inline-block;
+}
+
+.skills li a {
+  display: block;
+  color: #333;
+  background: #ddd;
+  padding: 12px 15px;
+  margin: 5px 0;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+.social-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links li a {
+  display: block;
+  color: #ddd;
+  background: #000;
+  padding: 15px 20px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 5px;
 }

@@ -1,16 +1,17 @@
 import React from 'react';
 
-const Skills = () => {
+const Skills = props => {
   return (
     <div className='skills'>
       <ul>
         <li>
-          <a href='/'>HTML & HTML5</a>
-          <a href='/'>CSS & CSS3</a>
-          <a href='/'>JavaScript</a>
-          <a href='/'>jQuery, React JS & Node JS</a>
-          <a href='/'>PHP7</a>
-          <a href='/'>WordPress</a>
+          <a href='/'>{props.skillA}</a>
+        </li>
+        <li>
+          <a href='/'>{props.skillB}</a>
+        </li>
+        <li>
+          <a href='/'>{props.skillC}</a>
         </li>
       </ul>
     </div>
