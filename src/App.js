@@ -12,6 +12,7 @@ import SocialLinks from './components/Profile/SocialLinks';
 // Header Area
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import HeaderArea from './components/HeaderArea/HeaderArea';
+import Card from './components/Cards/Card';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       <HeaderArea />
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
-
+        <h2>Card Area</h2>
+        <Card />
         <div className='person-area'>
           <Person name='Saifur' age='24' />
           <Person name='Mamun' age='14' />

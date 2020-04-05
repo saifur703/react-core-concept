@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SocialLinks = (props) => {
-  console.log('Social Links', props.facebook);
+  // console.log('Social Links', props.facebook);
   const { facebook, twitter, linkedIn, gitHub } = props;
   return (
     <div className='social-links'>
