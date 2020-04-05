@@ -8,8 +8,14 @@ class Profile extends Component {
   me = {
     skillA: 'JavaScript',
     skillB: 'PHP',
-    skillC: 'WordPress'
+    skillC: 'WordPress',
   };
+  // links = {
+  //   facebook: 'Facebook',
+  //   twitter: 'Twitter',
+  //   linkedIn: 'LinkedIn',
+  //   gitHub: 'GitHub',
+  // };
   render() {
     return (
       <div className='container'>
@@ -19,7 +25,12 @@ class Profile extends Component {
           skillB={this.me.skillB}
           skillC={this.me.skillC}
         />
-        <SocialLinks />
+        <SocialLinks
+          facebook={this.facebook}
+          twitter={this.twitter}
+          linkedIn={this.linkedIn}
+          gitHub={this.gitHub}
+        />
       </div>
     );
   }

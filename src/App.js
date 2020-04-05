@@ -7,6 +7,7 @@ import Users from './components/Users/Users';
 import Person from './components/Person/Person';
 import Products from './components/Products/Products';
 import Skills from './components/Profile/Skills';
+import SocialLinks from './components/Profile/SocialLinks';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
         {/* <Profile></Profile> */}
         <Skills skillA='React' skillB='Nodejs' skillC='MongoDB'></Skills>
         <Skills skillA='JavaScript' skillB='PHP' skillC='WordPress'></Skills>
+        <SocialLinks facebook='Facebook' gitHub='Hello GitHub' />
+        <SocialLinks twitter='Twitter' linkedIn='Hello LinkedIn' />
       </header>
     </div>
   );
