@@ -9,9 +9,14 @@ import Products from './components/Products/Products';
 import Skills from './components/Profile/Skills';
 import SocialLinks from './components/Profile/SocialLinks';
 
+// Header Area
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import HeaderArea from './components/HeaderArea/HeaderArea';
+
 function App() {
   return (
     <div className='App'>
+      <HeaderArea />
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
 
