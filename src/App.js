@@ -13,13 +13,19 @@ import SocialLinks from './components/Profile/SocialLinks';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import HeaderArea from './components/HeaderArea/HeaderArea';
 import Card from './components/Cards/Card';
-
+import StatePractice from './components/StatePractice/StatePractice';
+import StatePractice2 from './components/StatePractice/StatePractice2';
+import SimpleTimer from './components/SimpleTimer/SimpleTimer';
 function App() {
   return (
     <div className='App'>
       <HeaderArea />
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
+        <SimpleTimer />
+        <hr />
+        <StatePractice />
+        <StatePractice2 />
         <h2>Card Area</h2>
         <Card />
         <div className='person-area'>
